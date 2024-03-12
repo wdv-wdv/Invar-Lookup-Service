@@ -2,8 +2,8 @@
   "name": "lookup-service-level-1",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo build your app here",
-    "start": "echo start your app here",
+    "build": "dotnet build app/backend.sln",
+    "start": "cd app/backend && dotnet run",
     "test": "cypress run"
   },
   "devDependencies": {
